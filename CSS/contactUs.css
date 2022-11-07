@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    text-align: center;
+    /*border-bottom: 2px;
+    border-bottom: solid;
+    border-bottom-color: #317773;*/
+}
+header img{
+    border-radius: 50%;
+    position: relative;
+    margin-top: -65px;
+    margin-left: 250px;
+    height: 100px;
+    width: 100px;
+}
+nav{
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 520;
+    box-sizing: border-box;
+}
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    float: left; /* the float moves the first box than the second etc so the order is reversed*/
+    display: block;
+    padding: 5px;
+    font-family: verdana;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    color: whitesmoke;
+}
+body{
+    font-family: Arial;
+    background-color: #cbd18f;
+    position: relative;
+    padding-bottom: 40px;
+}
+main{
+    width: 100vw;
+    margin: 150px auto;
+    padding: 30px 20px;
+    /*min-height: calc(100vh - 248px - 38px); make usable on other brower*/
+}
+nav ul{
+    padding-left: 10px;
+}
+ul li a:hover{
+    box-shadow: 0 12px 16px 0 #317773, 0 17px 50px 0 #317773;
+    font-size: 120%;
+}
+nav ul li a.active{
+    background-color: #317773;
+    color: whitesmoke;
+}  
+button{
+    background-color: #e3b448;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 10px;  
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 #317773, 0 17px 50px 0 #317773;
+}
+header{
+    text-align: center;
+    padding: 40px;
+}
+div{
+    margin-bottom: 150px;
+    
+}
+td{
+    color: whitesmoke;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+input , textarea{
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    border-color: #317773;
+}
+footer{
+    background-color: #317773;
+    color:whitesmoke;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    margin-top: 150px;
+}
+i{
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+}
+footer i:hover{
+    color: #e3b448;
+}
